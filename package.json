@@ -1,0 +1,25 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "description": "my blog",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabianmartinezcaro/blog-2023.git"
+  },
+  "keywords": [
+    "myblog"
+  ],
+  "author": "Fabian Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabianmartinezcaro/blog-2023/issues"
+  },
+  "homepage": "https://github.com/fabianmartinezcaro/blog-2023#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
